@@ -1,0 +1,85 @@
+@media (max-width: 1021px) {
+
+    .numbers{
+        font-size: 80px;
+    }
+    .numbers span{
+        margin: auto 10px;
+    }
+    
+}
+
+
+@media (max-width: 788px) {
+    .numbers span{
+        margin: auto 5px;
+        font-size: 10vw;
+    }
+}
+
+@media (max-width: 701px) {
+    .numbers span{
+        margin: auto 2px;
+    }
+}
+
+@media (max-width: 627px) {
+    .numbers span{
+        margin: auto 1px;
+    }
+    .numbers{
+        font-size: 50px;
+    }
+}
+
+@media (max-width: 555px) {
+    .buttons{
+        flex-direction: column;
+        margin-top: 2vh;
+        height: calc(60vh - 40vh);
+    }
+
+    .buttons button{
+        width: 30vw;
+        margin-top: 2vh;
+        height: 8vh;
+    }
+
+    .buttons button:hover{
+        width: 29.5vw;
+        height: 7vh;
+        box-shadow: 0 0 15px 2px rgba(0, 0, 0, 0.289);
+    }
+
+
+    .container{
+        height: 70vh;
+    }
+}
+
+@media (max-width: 328px) {
+
+    .numbers span{
+        margin: auto 1px;
+    }
+
+    .numbers{
+        font-size: 30px;
+    }
+
+    .type span{
+        font-size: 15px;
+    }
+
+    @media (max-width: 291px) {
+        .type span{
+            font-size: 10px;
+        }
+    }
+
+    @media (max-width: 291px){
+        .type span{
+            margin: auto 4vw;
+        }
+    }
+}

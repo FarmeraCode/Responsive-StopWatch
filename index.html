@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reponsiveness.css">
+    <link rel="shortcut icon" href="media/stopwatch.png" type="image/x-icon">
+    <title>StopWatch</title>
+</head>
+
+<body>
+
+    <h1>StopWatch</h1>
+
+    <div class="container">
+        <div class="numbers">
+            <span id="hr" class="clock">00</span>
+            <span class="ratio">:</span>
+            <span id="min" class="clock">00</span>
+            <span class="ratio">:</span>
+            <span id="sec" class="clock">00</span>
+            <span class="ratio">:</span>
+            <span id="millisec" class="clock">00</span>
+        </div>
+
+        <div class="type">
+            <span>Hours</span>
+            <span>Mins</span>
+            <span>Secs</span>
+            <span>Milli Secs</span>
+        </div>
+
+        <div class="buttons">
+            <button onclick="reset()">Reset</button>
+            <button onclick="start()">Start</button>
+            <button onclick="stop()">Stop</button>
+        </div>    
+    </div>
+
+    <script src="logics.js"></script>
+</body>
+</html>
